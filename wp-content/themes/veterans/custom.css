@@ -1,0 +1,38 @@
+/*
+Theme Name: veterans
+Theme URI: http://wordpress.org/
+*/
+
+ul.buttons { left-margin: 25px; }
+
+li.buttons {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+
+.wpcf7
+{
+    border: none;
+}
+.wpcf7-mail-sent-ok {
+  border: none;
+}
+.wpcf7-mail-sent-ng {
+  border: none;
+}
+.wpcf7-spam-blocked {
+  border: none;
+}
+.wpcf7-validation-errors {
+  border: none;
+}
+.wpcf7-not-valid-tip {
+  border: none;
+}
+
+div.wpcf7 img.ajax-loader {
+  border: none;
+}

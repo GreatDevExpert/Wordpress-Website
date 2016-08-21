@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie
+END
+Misc.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Misc.php
+END
+Parser.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Parser.php
+END
+Caption.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Caption.php
+END
+Item.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Item.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Exception.php
+END
+Enclosure.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Enclosure.php
+END
+Source.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Source.php
+END
+Author.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Author.php
+END
+Cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Cache.php
+END
+Locator.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Locator.php
+END
+Restriction.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Restriction.php
+END
+Copyright.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Copyright.php
+END
+Registry.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Registry.php
+END
+Credit.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Credit.php
+END
+Category.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Category.php
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/File.php
+END
+IRI.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/IRI.php
+END
+Rating.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Rating.php
+END
+gzdecode.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/gzdecode.php
+END
+Sanitize.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Sanitize.php
+END
+Core.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/veterans/!svn/ver/2/system/branches/development/src/site/wp-includes/SimplePie/Core.php
+END

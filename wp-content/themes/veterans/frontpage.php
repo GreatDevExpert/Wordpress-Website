@@ -1,0 +1,66 @@
+<?php
+/**
+ * The template for displaying all pages.
+ * Template name:frontpage
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site will use a
+ * different template.
+ *
+ * @package WordPress
+ * @subpackage veterans
+ * @since veterans 1.0
+ */
+get_header();
+?>
+
+<div id="container">
+    <div id="content" role="main">
+        <?php dynamic_sidebar('tv_section') ?>
+
+        <?php
+        /* Run the loop to output the page.
+         * If you want to overload this in a child theme then include a file
+         * called loop-page.php and that will be used instead.
+         */
+        get_template_part('loop', 'page');
+        ?>
+
+        <div class="features">
+            <div class="events">
+                <span class="style"></span>
+                <h2><img src="<?php bloginfo('template_directory') ?>/images/news.png" alt="news"/></h2> 
+
+                <div class="events_scroll">
+                <?php if (have_posts())
+                    ; ?>
+                <?php query_posts('cat=2&order=dsc&posts_per_page=3'); ?> 
+                <?php if (have_posts())
+                    while (have_posts()) : the_post(); ?>
+                        <div class="post_sec">
+                            <h3 class="news_postheading"><?php the_title(); ?></h3>
+                            <?php //echo wp_trim_words( get_the_content(), 100 ); ?>
+                            <?php //echo substr(get_the_content(), 0, 300); ?>
+        <!--                            <a class="read" href="<?php the_permalink(); ?>">[ Read ]</a>-->
+                            <?php the_excerpt(); ?>
+
+                        </div>
+                    <?php endwhile; ?>                    
+                <?php wp_reset_query() ?>                             
+
+                </div>
+            </div>
+
+            <?php dynamic_sidebar('twitter_section') ?>
+
+	    <?php dynamic_sidebar('video_section') ?>
+
+        </div>
+
+        <?php dynamic_sidebar('container_links_section') ?>
+
+    </div><!-- #content -->
+</div><!-- #container -->
+
+<?php //get_sidebar(); ?>
+<?php get_footer(); ?>
